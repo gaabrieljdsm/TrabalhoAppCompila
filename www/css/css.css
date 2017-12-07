@@ -1,0 +1,119 @@
+ * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    #wrapper {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 1000px;
+    }
+    #main {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+	  /*Tempo de abertura do menu lateral*/
+      -webkit-transition: 450ms ease all;
+      -transition: 300ms ease all;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      padding: 2% 4%;
+    }
+    .show-nav #main {
+      -webkit-transform: translateX(300px);
+      transform: translateX(300px);
+      -webkit-transform: translate3d(300px,0,0);
+      transform: translate3d(300px,0,0);
+    }
+    #nav {
+		/*Tamanho do menu lateral.*/
+      width: 235px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: -300px;
+	  /*Fundo do menu lateral.*/
+      background: 	#F0F8FF;
+      padding: 25px;
+      color: #fff;
+    }
+    
+	#CorLaranja	{
+		
+	color:#DCDCDC;
+	}
+	#1 {
+		
+    background-image: url("http://grupoteco.com.br/wp-content/uploads/2016/01/Logo-Microlandia-2.jpg");
+    background-repeat: no-repeat, repeat;
+	}
+	
+	#footer {
+		width:100%;
+		height: 40px;
+		background-color:#6495ed;
+		border-radius: 10px 20px 30px;
+		color:#DCDCDC;
+	}
+	
+	#footer2 {
+		width:100%;
+		height: 80px;
+		background-color:#6495ed;
+		border-radius: 10px 20px 30px;
+		color: #DCDCDC;
+	}
+	#BotoesFoterVoltarTopo{
+		left: 50%;
+		top: 50%
+	}
+	
+	#BotoesFoterInicioTopo{
+		right: 50%;
+		top: 50%
+	}
+	#CorH1Apps{
+		color: #FF8C00; 
+	}
+	#homeheader{
+		
+		
+		/*definimos a largura do box*/
+		width:100%;
+		/* definimos a altura do box */
+		height: 100px;
+		/* definimos a cor de fundo do box */
+		background-color:#6495ed;
+		/* definimos o quão arredondado irá ficar nosso box */
+		border-radius: 10px 20px 30px;
+	}
+	
+	#homepage{
+		color:#FF8C00;
+	}
+	
+	.BotaoEntrada{
+		margin-top:-30px;
+		
+	}
+	.MensagemInicio{
+		padding:40px;
+		margin-top:80px;
+		color: #000;
+		
+	}
+	.MensagemInicio img{
+		width:80%;
+		margin-top:10px;
+		margin-bottom:10px;
+		
+		
+	}
